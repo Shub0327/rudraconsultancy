@@ -35,3 +35,8 @@ span_1 {
     background: black;
     border-radius: 50%;
 }
+.contact-me-area section-padding
+{
+    display: flex;
+    justify-content: center;
+}
