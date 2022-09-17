@@ -739,9 +739,12 @@ fieldset {
 
 .about-image img {
     width: 350px;
+    height: 350px;
     border-radius: 50%;
     border: 1px solid #444;
 }
+
+
 
 .about-image {
     text-align: right;
