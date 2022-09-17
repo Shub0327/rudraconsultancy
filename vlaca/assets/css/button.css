@@ -17,7 +17,7 @@ body {
   height: 20vh;
 }
 
-a {
+.aba {
   font-size: 1.5rem;
   padding: 1rem 3rem;
   color: #f4f4f4;
@@ -29,7 +29,7 @@ a {
   border: 1px solid rgb(146, 148, 248);
   position: relative;
   overflow: hidden;
-  color: white;
+  color: whitesmoke;
 }
 
 .btni:hover {
