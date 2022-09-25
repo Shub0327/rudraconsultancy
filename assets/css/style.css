@@ -46,6 +46,7 @@ Version      : 1.0
 
 .responsive-iframe {
 
+    background: black;
   position: absolute;
   top: 0;
   left: 0;
