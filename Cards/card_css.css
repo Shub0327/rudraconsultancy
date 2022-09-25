@@ -2,7 +2,7 @@
 
 
 
-/*  @media screen and (max-width: 1240px){
+  @media screen and (max-width: 1240px){
       .card-1, .card-2, .card-3{
         transform: scale(0.8) translate(-63%, -63%);
       }
@@ -45,12 +45,12 @@
 body{
   margin: 0;
   padding: 0;
-/*  background: rgb(0, 0, 0, 0.05);*/
+/* background: rgb(0, 0, 0, 0.05);*/
 }
 
 *{
   margin: 0;
-  padding top: 300px;   
+  padding: 0;   
 }
 
 .card-1{
