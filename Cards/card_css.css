@@ -1,8 +1,8 @@
-/*@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
 
 
 
-  @media screen and (max-width: 1240px){
+/*  @media screen and (max-width: 1240px){
       .card-1, .card-2, .card-3{
         transform: scale(0.8) translate(-63%, -63%);
       }
@@ -42,16 +42,16 @@
         transform: scale(0.6) translate(-83%, -83%);
       }
     }
-sbody{
+body{
   margin: 0;
   padding: 0;
-  background: rgb(0, 0, 0, 0.05);
-}*/
-/*
+/*  background: rgb(0, 0, 0, 0.05);*/
+}
+
 *{
   margin: 0;
-  padding: 0;   
-}*/
+  padding top: 300px;   
+}
 
 .card-1{
   position: absolute;
