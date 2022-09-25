@@ -147,7 +147,7 @@ p{
 }
 
 #pricing-container .price-card--price-number:before {
-	content: "$";
+	content: "₹";
 	font-size: 24px;
 	top: -16px;
 	display: inline-block;
@@ -155,7 +155,6 @@ p{
 }
 
 #pricing-container .price-card--price-number:after {
-	content: "/month";
 	font-size: 12px;
 	display: inline-block;
 	color: grey;
@@ -177,7 +176,7 @@ p{
 	text-align: center;
 }
 
-#pricing-container .price-card--cta--button.btn{
+#pricing-container .price-card--cta--button.btnll{
 	min-width:20px;
 	display:block;
 	max-width:183px;
@@ -375,7 +374,7 @@ p{
 	transition: 0.1s;
 }
 
-.btn{
+.btnll{
 	width: 200px;
 	height:45px;
 	background: transparent;
