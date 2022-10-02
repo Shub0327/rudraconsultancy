@@ -83,7 +83,7 @@ Version      : 1.0
         $('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - 50
+                scrollTop: $(anchor.attr('https://api.whatsapp.com/send?phone=51955081075&text=')).offset().top - 50
             }, 1000);
             e.preventDefault();
         });
