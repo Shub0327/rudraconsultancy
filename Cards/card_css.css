@@ -97,7 +97,7 @@ body{
 
 .card-1 .content h1{
   position: fixed;
-  top: 90px;
+  top: 250px;
   left: 10px;
   padding: 20px;
   opacity: 0;
@@ -106,6 +106,7 @@ body{
   color: rgb(0, 0, 0, 0.7);
   transition: 1s;
 }
+
 
 .card-1 .content p{
   position: fixed;
@@ -272,13 +273,14 @@ body{
 
 .card-2 .content h1{
   position: fixed;
-  top: 150px;
+  top: 250px;
   left: 4px;
   opacity: 0;
   font-family: "Dosis", sans-serif;
   font-size: 25px;
   color: rgb(0, 0, 0, 0.7);
   transition: 1s;
+  ;
 }
 
 .card-2 .content p{
@@ -447,13 +449,13 @@ body{
 
 .card-3 .content h1{
   position: fixed;
-  top: 90px;
-  left: 115px;
+  top: 250px;
+  left: 10px;
+  padding: 20px;
   opacity: 0;
   font-family: "Dosis", sans-serif;
   font-size: 25px;
-  color: rgb(235, 139, 4);
-  text-shadow: rgb(252, 83, 4, 0.5)0 0 10px;
+  color: rgb(0, 0, 0, 0.7);
   transition: 1s;
 }
 
@@ -580,6 +582,10 @@ body{
 button:hover{
   cursor: pointer;
 }
+
+
+
+
 
 
 
