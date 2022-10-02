@@ -1,591 +1,141 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
-
-
-
-  /*@media screen and (max-width: 1240px){
-      .card-1, .card-2, .card-3{
-        transform: scale(0.8) translate(-63%, -63%);
-      }
-    }
-    
-    @media screen and (max-width: 1000px){
-      .card-1, .card-2, .card-3{
-        transform: scale(0.5) translate(-96%, -96%);
-      }
-    }
-    
-    @media screen and (max-width: 665px){
-      .card-1{
-        left: 50%;
-        top: 20%;
-      }
-      
-       .card-2{
-        left: 50%;
-        top: 60%;
-      }
-      
-      .card-3{
-        left: 50%;
-        top: 100%;
-      }
-    }
-    
-    @media screen and (max-height: 605px){
-      .card-1, .card-2, .card-3{
-        transform: scale(0.5) translate(-96%, -96%);
-      }
-    }
-    
-   @media screen and (max-height: 510px){
-      .card-1, .card-2, .card-3{
-        transform: scale(0.6) translate(-83%, -83%);
-      }
-    }*/
-body{
-  margin: 0;
-  padding: 0;
-/* background: rgb(0, 0, 0, 0.05);*/
+.newcard {
+  background: #000;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  font-family: "Open Sans";
+  transition: all 0.25s;
+	position: relative;
+	flex: 1 1;
 }
 
-*{
-  margin: 0;
-  padding: 0;   
+.education {
+  --bg-color: #ffd861;
+  --bg-color-light: #ffeeba;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 215, 97, 0.48);
 }
 
-.card-1{
-  position: absolute;
-  left: 17%;
-  top: 50%;
- /* object-fit: cover;*/
-  transform: translate(-50%, -50%);
-  background-image: url(img/company.svg);
-  background-size: 100% 100%;
-  background-position: ;
-  border-radius: 20px;
-  height: 600px;
-  width: 400px;
-  box-shadow: rgb(0, 0, 0, 0.1) 0 0 10px;
+.credentialing {
+  --bg-color: #B8F9D3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.human-resources {
+  --bg-color: #DCE9FF;
+  --bg-color-light: #f1f7ff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+.card {
+  width: 300px;
+  height: 321px;
+  background: #fff;
+  border-top-right-radius: 10px;
   overflow: hidden;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.card-1 .title1{
-  font-family: "Dosis", sans-serif;
-  background: rgb(16, 20, 26, 0.5);
-  width: 180px;
-  padding: 5px 0;
-  border-radius: 8px;
-  color: white;
-  margin: 140px 0 0 108px;
-  font-size: 30px;
-}
-
-.card-1 .content{
-  position: absolute;
-  background: white;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  top: -30%;
-  left: -45%;
-  box-shadow: rgb(0, 0, 0, 0.5) 0 0 20px;
-  text-align: center;
-  transition: 0.8s;
-}
-
-.card-1 .content h1{
-  position: fixed;
-  top: 250px;
-  left: 10px;
-  padding: 20px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 25px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-
-.card-1 .content p{
-  position: fixed;
-  top: 150px;
-  left: 95px;
-  width: 200px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-1 .content h2{
-  position: fixed;
-  top: 240px;
-  left: 155px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 23px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-1 .content ul{
-  position: fixed;
-  top: 300px;
-  left: 110px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-  text-align: left;
-}
-
-.card-1 .content li{
-  margin: 8px 0;
-  list-style: none;
-}
-
-.card-1:hover .content{
-  height: 200%;
-  width: 250%;
-}
-
-.fa-check{
-  color: rgb(36, 168, 79);
-  margin: 0 8px;
-}
-
-.fa-times{
-  color: rgb(213, 45, 1);
-  margin: 0 10px;
-  font-size: 18px;
-}
-
-.card-1 .content h3{
-  position: fixed;
-  top: 470px;
-  left: 150px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-1 .content button{
-  background: 0;  
-  opacity: 0;
-  border-radius: 10px;
-  border: 1px solid rgb(84, 47, 101);
-  outline: none;
-  height: 45px;
-  width: 300px;
-  position: absolute;
-  top: 700px;
-  left: 380px;
-  transform: translate(-50%, 0);
-  font-family: "Dosis", sans-serif;
-  color: rgb(84, 47, 101);
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-
-.card-1 button:hover{
-  background: rgb(84, 47, 101); 
-  color: white;
-}
-
-.fa-shopping-cart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  right: 5px;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
 }
 
-.card-1:hover .content h1{
-  opacity: 1;
+.card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
 }
 
-.card-1:hover .content p{
-  opacity: 1;
+.card:hover .overlay {
+  transform: scale(4) translateZ(0);
 }
 
-.card-1:hover .content h2{
-  opacity: 1;
+.card:hover .circle {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
 }
 
-.card-1:hover .content ul{
-  opacity: 1;
+.card:hover .circle:after {
+  background: var(--bg-color-light);
 }
 
-.card-1:hover .content h3{
-  opacity: 1;
+.card:hover p {
+  color: var(--text-color-hover);
 }
 
-.card-1:hover .content button{
-  opacity: 1;
+.card:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+    0 15px 24px var(--box-shadow-color);
 }
 
-/*card two stylesheet*/
-
-.card-2{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url(img/human.svg);
-  background-size: 100% 100%;
-  background-position: ;
-  border-radius: 20px;
-  height: 600px;
-  width: 400px;
-  box-shadow: rgb(0, 0, 0, 0.1) 0 0 10px;
-  overflow: hidden;
-  text-align: center;
-  transition: 0.3s;
+.card p {
+  font-size: 17px;
+  color: #4C5656;
+  margin-top: 30px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
 }
 
-.card-2 .title1{
-  font-family: "Dosis", sans-serif;
-  background: rgb(43, 3, 68, 0.5);
-  width: 180px;
-  padding: 5px 0;
-  border-radius: 8px;
-  color: white;
-  margin: 140px 0 0 108px;
-  font-size: 30px;
-}
-
-.card-2 .content{
-  position: absolute;
-  background: white;
+.circle {
+  width: 131px;
+  height: 131px;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  top: -30%;
-  left: -45%;
-  box-shadow: rgb(0, 0, 0, 0.5) 0 0 20px;
-  text-align: center;
-  transition: 0.8s;
-}
-
-.card-2 .content h1{
-  position: fixed;
-  top: 250px;
-  left: 4px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 25px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-  ;
-}
-
-.card-2 .content p{
-  position: fixed;
-  top: 150px;
-  left: 95px;
-  width: 200px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-2 .content h2{
-  position: fixed;
-  top: 240px;
-  left: 155px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 23px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-2 .content ul{
-  position: fixed;
-  top: 300px;
-  left: 110px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-  text-align: left;
-}
-
-.card-2 .content li{
-  margin: 8px 0;
-  list-style: none;
-}
-
-.card-2:hover .content{
-  height: 200%;
-  width: 250%;
-}
-
-.fa-check{
-  color: rgb(36, 168, 79);
-  margin: 0 8px;
-}
-
-.fa-times{
-  color: rgb(213, 45, 1);
-  margin: 0 10px;
-  font-size: 18px;
-}
-
-.card-2 .content h3{
-  position: fixed;
-  top: 470px;
-  left: 150px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-2 .content button{
-  background: 0;  
-  opacity: 0;
-  border-radius: 10px;
-  border: 1px solid rgb(84, 47, 101);
-  outline: none;
-  height: 45px;
-  width: 300px;
-  position: absolute;
-  top: 700px;
-  left: 380px;
-  transform: translate(-50%, 0);
-  font-family: "Dosis", sans-serif;
-  color: rgb(84, 47, 101);
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-
-.card-2 .content button:hover{
-  background: rgb(84, 47, 101); 
-  color: white;
-}
-
-.fa-shopping-cart{
+  background: #fff;
+  border: 2px solid var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  right: 5px;
+  z-index: 1;
+  transition: all 0.3s ease-out;
 }
 
-.card-2:hover .content h1{
-  opacity: 1;
-}
-
-.card-2:hover .content p{
-  opacity: 1;
-}
-
-.card-2:hover .content h2{
-  opacity: 1;
-}
-
-.card-2:hover .content ul{
-  opacity: 1;
-}
-
-.card-2:hover .content h3{
-  opacity: 1;
-}
-
-.card-2:hover .content button{
-  opacity: 1;
-}
-
-/*card three stylesheet*/
-
-
-.card-3{
+.circle:after {
+  content: "";
+  width: 118px;
+  height: 118px;
+  display: block;
   position: absolute;
-  left: 83%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url(img/web.jpeg);
-  background-size: 100% 90%;
-  background-position: 50%;
-  border-radius: 20px;
-  height: 600px;
-  width: 400px;
-  box-shadow: rgb(0, 0, 0, 0.1) 0 0 10px;
-  overflow: hidden;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.card-3 .title1{
-  font-family: "Dosis", sans-serif;
-  background: rgb(89, 49, 3, 0.6);
-  width: 180px;
-  padding: 5px 0;
-  border-radius: 8px;
-  color: white;
-  margin: 140px 0 0 108px;
-  font-size: 30px;
-}
-
-.card-3 .content{
-  position: absolute;
-  background: white;
+  background: var(--bg-color);
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  top: -30%;
-  left: -45%;
-  box-shadow: rgb(0, 0, 0, 0.5) 0 0 20px;
-  text-align: center;
-  transition: 0.8s;
+  top: 7px;
+  left: 7px;
+  transition: opacity 0.3s ease-out;
 }
 
-.card-3 .content h1{
-  position: fixed;
-  top: 250px;
-  left: 10px;
-  padding: 20px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 25px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
+.circle svg {
+  z-index: 10000;
+  transform: translateZ(0);
 }
 
-.card-3 .content p{
-  position: fixed;
-  top: 150px;
-  left: 95px;
-  width: 200px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
+.overlay {
+  width: 118px;
+  position: absolute; 
+  height: 118px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  transition: transform 0.3s ease-out;
 }
 
-.card-3 .content h2{
-  position: fixed;
-  top: 240px;
-  left: 155px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 23px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
+@media(max-width:768px){
+	.grandparent{height: auto;}
 }
 
-.card-3 .content ul{
-  position: fixed;
-  top: 300px;
-  left: 110px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-size: 16px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-  text-align: left;
+.newcard{
+	justify-content: space-around;
+	flex-wrap: wrap;
+	transition: all 0.2 linear;
 }
-
-.card-3 .content li{
-  margin: 8px 0;
-  list-style: none;
-}
-
-.card-3:hover .content{
-  height: 200%;
-  width: 250%;
-}
-
-.fa-check{
-  color: rgb(36, 168, 79);
-  margin: 0 8px;
-}
-
-.fa-times{
-  color: rgb(213, 45, 1);
-  margin: 0 10px;
-  font-size: 18px;
-}
-
-.card-3 .content h3{
-  position: fixed;
-  top: 470px;
-  left: 150px;
-  opacity: 0;
-  font-family: "Dosis", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: rgb(0, 0, 0, 0.7);
-  transition: 1s;
-}
-
-.card-3 .content button{
-  background: 0;  
-  opacity: 0;
-  border-radius: 10px;
-  border: 1px solid rgb(235, 139, 4);
-  outline: none;
-  height: 45px;
-  width: 300px;
-  position: absolute;
-  top: 700px;
-  left: 380px;
-  transform: translate(-50%, 0);
-  font-family: "Dosis", sans-serif;
-  color: rgb(235, 139, 4);
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-
-.card-3 .content button:hover{
-  background: rgb(235, 139, 4); 
-  color: white;
-}
-
-.fa-shopping-cart{
-  position: relative;
-  right: 5px;
-}
-
-.card-3:hover .content h1{
-  opacity: 1;
-}
-
-.card-3:hover .content p{
-  opacity: 1;
-}
-
-.card-3:hover .content h2{
-  opacity: 1;
-}
-
-.card-3:hover .content ul{
-  opacity: 1;
-}
-
-.card-3:hover .content h3{
-  opacity: 1;
-}
-
-.card-3:hover .content button{
-  opacity: 1;
-}
-
-button:hover{
-  cursor: pointer;
-}
-
-
-
-
-
-
-
