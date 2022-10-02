@@ -529,7 +529,7 @@ body{
   background: 0;  
   opacity: 0;
   border-radius: 10px;
-  border: 1px solid rgb(235, 139, 4);
+  border: 1px solid rgb(84, 47, 101);
   outline: none;
   height: 45px;
   width: 300px;
@@ -538,13 +538,13 @@ body{
   left: 380px;
   transform: translate(-50%, 0);
   font-family: "Dosis", sans-serif;
-  color: rgb(235, 139, 4);
+  color: rgb(84, 47, 101);
   text-transform: uppercase;
   transition: 0.3s;
 }
 
 .card-3 .content button:hover{
-  background: rgb(235, 139, 4); 
+ background: rgb(84, 47, 101); 
   color: white;
 }
 
