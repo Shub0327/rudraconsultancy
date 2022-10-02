@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 .newcard {
   background: #000;
   background-color: #000;
@@ -6,11 +7,12 @@
   align-items: center;
   flex-wrap: wrap;
   height: 50vh;
-  font-family: "Open Sans";
   transition: all 0.25s;
 	position: relative;
 	flex: 1 1;
   padding-top: 35px;
+  font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: bold;
 }
 
 .education {
