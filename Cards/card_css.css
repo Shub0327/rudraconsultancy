@@ -61,7 +61,6 @@ body{
   transform: translate(-50%, -50%);
   background-image: url(img/company.svg);
   background-size: 100% 100%;
-  background-position: ;
   border-radius: 20px;
   height: 600px;
   width: 400px;
@@ -237,7 +236,6 @@ body{
   transform: translate(-50%, -50%);
   background-image: url(img/human.svg);
   background-size: 100% 100%;
-  background-position: ;
   border-radius: 20px;
   height: 600px;
   width: 400px;
@@ -581,6 +579,16 @@ body{
 
 button:hover{
   cursor: pointer;
+}
+
+@media(max-width:768px){
+	.grandparent-card{height: auto;}
+}
+
+.parent-card{
+	justify-content: space-around;
+	flex-wrap: wrap;
+	transition: all 0.2 linear;
 }
 
 
