@@ -298,6 +298,7 @@ p{
 /* - - - - - - - - - Switch Section - - - */
 
 #pricing-switch {
+	color: #fff;
 	margin: 80px auto 100px;
 	text-align: center;
 	line-height: 1.4;
