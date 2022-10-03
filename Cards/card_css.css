@@ -105,6 +105,8 @@ body{
   font-size: 25px;
   color: rgb(0, 0, 0, 0.7);
   transition: 1s;
+  font-style: italic;
+  font-weight: bold;
 }
 
 
@@ -183,7 +185,7 @@ body{
   border: 1px solid rgb(84, 47, 101);
   outline: none;
   height: 45px;
-  width: 300px;
+  width: 200px;
   position: absolute;
   top: 700px;
   left: 380px;
@@ -191,7 +193,7 @@ body{
   font-family: "Dosis", sans-serif;
   color: rgb(84, 47, 101);
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 .card-1 button:hover{
@@ -280,7 +282,8 @@ body{
   font-size: 25px;
   color: rgb(0, 0, 0, 0.7);
   transition: 1s;
-  ;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .card-2 .content p{
@@ -358,7 +361,7 @@ body{
   border: 1px solid rgb(84, 47, 101);
   outline: none;
   height: 45px;
-  width: 300px;
+  width: 200px;
   position: absolute;
   top: 700px;
   left: 380px;
@@ -366,7 +369,7 @@ body{
   font-family: "Dosis", sans-serif;
   color: rgb(84, 47, 101);
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 .card-2 .content button:hover{
@@ -459,6 +462,8 @@ body{
   font-size: 25px;
   color: rgb(0, 0, 0, 0.7);
   transition: 1s;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .card-3 .content p{
@@ -536,7 +541,7 @@ body{
   border: 1px solid rgb(84, 47, 101);
   outline: none;
   height: 45px;
-  width: 300px;
+  width: 200px;
   position: absolute;
   top: 700px;
   left: 380px;
@@ -544,7 +549,7 @@ body{
   font-family: "Dosis", sans-serif;
   color: rgb(84, 47, 101);
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 .card-3 .content button:hover{
