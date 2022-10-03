@@ -420,3 +420,8 @@ strong{
 	flex-wrap: wrap;
 	transition: all 0.2 linear;
 }
+
+#please-row{
+    display: flex;
+  justify-content: space-between;
+}
