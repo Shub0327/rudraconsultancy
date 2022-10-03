@@ -571,6 +571,7 @@ fieldset {
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
     padding: 40px 0px;
+    height: 100px;
 }
 
 .logo {
