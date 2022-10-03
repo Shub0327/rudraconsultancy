@@ -411,16 +411,18 @@ body{
   left: 83%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(img/web.jpeg);
-  background-size: 100% 90%;
+  background-image: url(img/website.svg);
+  background-size: 100% 100%;
   background-position: 50%;
   border-radius: 20px;
+  border-color: white;
   height: 600px;
   width: 400px;
   box-shadow: rgb(0, 0, 0, 0.1) 0 0 10px;
   overflow: hidden;
   text-align: center;
   transition: 0.3s;
+
 }
 
 .card-3 .title1{
