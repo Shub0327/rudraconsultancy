@@ -54,6 +54,9 @@ body{
 }
 
 .card-1{
+border-radius: 10px;
+  border: 1px solid white;
+
   position: absolute;
   left: 17%;
   top: 50%;
@@ -233,6 +236,9 @@ body{
 /*card two stylesheet*/
 
 .card-2{
+border-radius: 10px;
+  border: 1px solid white;
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -275,6 +281,7 @@ body{
 
 .card-2 .content h1{
   position: fixed;
+  padding: 10px;
   top: 250px;
   left: 4px;
   opacity: 0;
@@ -410,6 +417,9 @@ body{
 
 
 .card-3{
+
+  border-radius: 10px;
+  border: 1px solid white;
   position: absolute;
   left: 83%;
   top: 50%;
