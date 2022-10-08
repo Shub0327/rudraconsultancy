@@ -25,6 +25,7 @@
   content: "";
   display: table;
   clear: both;
+  background-color: #000;
 }
 
 /* Responsive columns */
