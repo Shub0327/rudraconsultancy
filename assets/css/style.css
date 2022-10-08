@@ -34,6 +34,12 @@ Version      : 1.0
 }
 
 
+.md5
+{
+    font-family: 'Dosis', sans-serif;
+     color: #aeaeae;
+}
+
 
 .container_iframe {
   position: relative;
@@ -384,7 +390,8 @@ fieldset {
     transform: translate(-50%, -50%);
 }
 
-.header-text .home-arrow-down .btn {
+.header-text .home-ar
+-down .btn {
     font-size: 30px;
 }
 
@@ -505,6 +512,7 @@ fieldset {
     height: 100%;
     content: "";
     z-index: -1;
+    background-attachment: fixed;
 }
 
 
