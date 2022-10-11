@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
 
 
-
-  /*@media screen and (max-width: 1240px){
+ @media screen and (max-width: 1240px){
       .card-1, .card-2, .card-3{
         transform: scale(0.8) translate(-63%, -63%);
       }
@@ -41,7 +40,8 @@
       .card-1, .card-2, .card-3{
         transform: scale(0.6) translate(-83%, -83%);
       }
-    }*/
+    }
+    
 body{
   margin: 0;
   padding: 0;
@@ -50,7 +50,31 @@ body{
 
 *{
   margin: 0;
-  padding: 0;   
+  padding: 0;
+  /*overflow: hidden;*/
+
+}
+
+.container_iframe {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+  overflow: hidden;
+  overflow-y: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+
+.responsive-iframe {
+
+    background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .card-1{
@@ -598,7 +622,6 @@ border-radius: 10px;
 button:hover{
   cursor: pointer;
 }
-
 
 
 
