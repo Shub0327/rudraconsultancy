@@ -1,1018 +1,560 @@
-@charset "utf-8";
-
-/* ==============================
-   Small desktop
-   ============================== */
-
-@media only screen and (max-width: 1366px) {	
-    
-    .full-wrapper{
-        margin-left: 30px;
-        margin-right: 30px;
-    }    
-    .inner-nav ul li{
-        margin-left: 32px;
-    }
-    .mn-has-multi{
-        padding: 7px;
-    }
-    .mn-sub-multi {
-        width: 196px !important;
-    }
-    .inner-nav ul li .mn-sub li a{
-        padding: 10px 14px;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    
-    .inner-nav ul{
-        font-size: 16px;
-    }	
-    .inner-nav ul li{
-        margin-left: 23px;
-    }
-    .hs-line-1{
-        font-size: 72px;
-    }
-    .hs-line-2{
-        font-size: 68px;
-    }
-    .hs-line-12{
-        font-size: 70px;
-    }
-    .hs-line-13{
-        font-size: 78px;
-    }
-    .form input[type="text"].input-lg,
-    .form input[type="email"].input-lg,
-    .form input[type="number"].input-lg,
-    .form input[type="url"].input-lg,
-    .form input[type="search"].input-lg,
-    .form input[type="tel"].input-lg,
-    .form input[type="password"].input-lg,
-    .form input[type="date"].input-lg,
-    .form input[type="color"].input-lg,
-    .form select.input-lg{
-        height: 51px;
-        font-size: 18px;
-    }
-    .btn-mod.btn-large{
-        padding: 12px 35px 14px;
-        font-size: 14px;
-    }
-    .alt-service-grid{
-        margin-top: -40px;
-    } 
-    .alt-service-item{
-        margin-top: 40px;
-        padding-left: 48px;
-    }
-    .alt-services-title{
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
-    .alt-services-image{
-        margin-top: 10px;
-    }
-    
-    .work-grid-5 .work-item{
-        width: 25%;
-    }
-    
-    .mod-breadcrumbs-mini{
-        text-align: right;
-    }
-    
-}
-@media only screen and (max-width: 1199px) {
-    
-    .work-title{
-        font-size: 18px;
-        letter-spacing: 0;
-    }
-    .tpl-alt-tabs{
-        font-size: 13px;
-        letter-spacing: 0.2em;
-    }
-    .tpl-alt-tabs > li{
-        width: 170px;
-    }
-    
-    .split-section-wrapper{
-        padding: 0 50px;
-    }
-    
-}
-
-/* ==============================
-   Tablet landskape
-   ============================== */
-
-@media only screen and (max-width: 1024px) {
-    
-    .main-nav,
-    .main-nav.small-height,
-    .nav-logo-wrap .logo,
-    .nav-logo-wrap .logo.small-height,
-    .mobile-cart,
-    .mobile-cart.small-height,
-    .mobile-nav,
-    .mobile-nav.small-height{
-        height: 70px !important;
-        line-height: 70px !important;
-    }
-    .scroll-down-alt{
-        width: 62px;
-        height: 62px;
-        line-height: 52px;
-        margin-left: -31px;
-        font-size: 15px;
-    }
-    
-    .hs-line-2{
-        font-size: 60px;
-    }
-    .hs-line-7{
-        font-size: 56px;
-    }
-    .hs-line-9{
-        font-size: 71px;
-    } 
-    .float-images-1{
-        top: 12.8vw;
-    }
-    .team-item-wrap{
-        padding: 52px 36px 15px 36px;
-    }
-    .benefit-item{
-        width: 300px;
-        padding: 15px 32px;
-    }
-
-    .page-section{
-        padding: 120px 0;
-        
-    }
-    .page-section, .home-section, .small-section{
-        background-attachment: scroll;
-    }
-    
-    .owl-pagination{
-        bottom: 25px;
-    }  
-    
-    .lp-item{
-        width: 50%;
-    }
-    .lp-item:nth-child(4n + 5) { 
-        clear: none; 
-    }
-    .lp-item:nth-child(2n + 3) {        
-        clear:left;
-    }
-    .lp-title, .lp-author{
-        font-size: 13px;
-    }
-    
-    .fa-examples > li{
-        width: 33.3%;
-    }
-
-}
-  
-@media only screen and (max-width: 992px) {
-    
-    .split-background{
-        width: 32%;
-    }    
-    .owl-prev,
-    .owl-next{
-        height: 37px;
-        font-size: 37px;
-    }
-    .owl-prev{
-        left: 10px;
-    }
-    .owl-next{
-        right: 10px;
-    }
-    
-    .mod-breadcrumbs:not(.align-center):not(.mod-breadcrumbs-mini) {
-        text-align: left !important;
-    }
-    
-    .tpl-alt-tabs > li{
-        width: 200px;
-    }
-      
-    .split-section-headings,
-    .split-section-headings.left,
-    .split-section-headings.right,
-    .split-section-content,
-    .split-section-content.left,
-    .split-section-content.right{
-        float: none !important;
-        width: auto;
-    }
-    
-    .split-section-headings .section-title{
-        font-size: 35px;
-        letter-spacing: 5px;
-    }
-    
-    .banner-text{
-        text-align: center;
-    } 
-    
-    .banner-image{
-        margin: 40px 0;
-    }
-    .team-item-wrap{
-        padding: 52px 10px 15px 10px;
-    }
-    .team-item-name{
-        font-size: 18px;
-    }
-    
-    .features-icon{
-        font-size: 64px;
-    } 
-    .features-title{
-        font-size: 20px;
-    }
-    .features-descr{
-        font-size: 14px;
-    }
-    .alt-features-grid{
-        margin-top: -30px;
-        margin-bottom: 30px;
-    } 
-    .alt-features-item{
-        margin-top: 30px;
-    }
-    .work-item,
-    .work-grid-3 .work-item,
-    .container .work-grid-3 .work-item,
-    .work-grid-5 .work-item{
-        width: 49.9%;
-    }      
-    .countdown > li{
-        margin: 0 20px;
-    }
-    .countdown-number{
-        width: 74px;
-        height: 74px;
-        font-size: 24px;
-        line-height: 64px;
-    }
-    .countdown-number > b{
-        bottom: 18px;
-    }   
-    
-}
-  
-  
-/* ==============================
-   Tablet Portrait
-   ============================== */
-  
-@media only screen and (max-width: 768px) {
-
-    .hs-wrap{
-        max-width: 400px;
-    }
-    .hs-line-2{
-        font-size: 50px;
-    }
-    .hs-line-4{
-        font-size: 20px;
-    }
-    .hs-line-7{
-        font-size: 64px;
-    }
-    .float-images-1{;
-        top: 27vw;
-        width: 18vw;
-    }
-    .float-images-2{;
-        width: 18vw;
-    }
-    .float-images-3{
-        bottom: 29.5vh;
-        width: 13vw;
-    }
-    .float-images-4{;
-        bottom: 15vh;
-        width: 18vw;
-    }
-    .page-section{
-        padding: 80px 0;
-    }    
-    .small-section{
-        padding: 50px 0;
-    }
-    .small-title{
-        font-size: 18px;
-    }
-    
-    .owl-pagination{
-        bottom: 17px;
-    }  
-    
-    .tpl-minimal-tabs > li{
-        padding: 0 5px;
-    }    
-        
-    .benefit-item{
-        width: 264px;
-    }
-    .alt-service-grid{
-        margin-top: -30px;
-    }
-    .alt-service-item{
-        margin-top: 30px;
-    }
-
-    .works-filter a{
-        margin: 4px;
-    }    
-    .blog-item{
-        margin-bottom: 50px;
-    }
-    .blog-item-title{
-        font-size: 28px;
-    }
-    .blog-item-title .small{
-        font-size: 15px;
-    }
-    .blog-media{
-        margin-bottom: 15px;
-    }
-    .blog-item-body .small{
-        font-size: 13px;
-    }
-    .google-map > iframe{
-        height: 300px;
-    }    
-    .fm-logo-wrap{
-        top: 17px;
-        left: 17px;
-    }
-    .fm-button{
-        top: 17px;
-        right: 17px;
-    }
-
-}
-
-@media only screen and (max-width: 767px) {
-    
-    .nav-logo-wrap .logo{
-        max-width: 150px;
-    }    
-    .fixed-height-small{
-        height: 300px;
-        min-height: 300px;
-    }
-    .fixed-height-medium{
-        height: 350px;
-        min-height: 350px;
-    }
-    .fixed-height-large{
-        height: 400px;
-        min-height: 400px;
-    }
-    .hs-wrap{
-        max-width: 320px;
-        padding-top: 27px;
-        padding-bottom: 33px;
-    }
-    .hs-line-1{
-        font-size: 36px;
-    }
-    .hs-line-2{
-        font-size: 48px;
-    }    
-    .hs-line-3{
-        font-size: 16px;
-    }
-    .hs-image{
-        display: none;
-    }
-    
-    .hs-wrap-1{
-        max-width: 240px;
-    }    
-    .hs-line-5{
-        font-size: 36px;
-    }
-    .hs-line-6{
-        font-size: 20px;
-    }
-    .hs-line-7{
-        font-size: 50px;
-    }
-    
-    .hs-line-9{
-        font-size: 48px;
-    } 
-    
-    .hs-line-11{
-        font-size: 24px;
-    }    
-    .hs-line-12{
-        font-size: 44px;
-    }
-    .hs-line-13{
-        font-size: 60px;
-    }
-    .hs-line-14{
-        font-size: 24px;
-    }
-    .hs-line-15{
-        font-size: 32px;
-    }
-    .team-item{
-        max-width: 370px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .benefit-item{
-        width: 230px;
-        padding: 0;
-    }    
-    .benefit-item:hover:after{
-        display: none;
-    }       
-    .wide-heading{
-        font-size: 32px;
-        letter-spacing: 2px;
-    }    
-    .works-filter a{
-        margin: 4px;
-        width: 46%;
-    }
-    .works-filter a.active:after,
-    .works-filter a:hover:after{
-        transform: scaleX(0);
-    }
-    .work-item,
-    .work-grid-2 .work-item,
-    .work-grid-3 .work-item,
-    .container .work-grid-3 .work-item,
-    .work-grid-5 .work-item{
-        width: 100%;
-    }   
-    .newsletter-label-icon{
-        font-size: 72px;  
-    }
-    .newsletter-label-text{
-        margin-top: 20px;
-        font-size: 32px;
-    }    
-    blockquote p{
-        font-size: 20px;
-    }    
-    blockquote footer{
-        margin-top: 0;
-        font-size: 12px;
-    }
-    .banner-content{
-        text-align: center;
-    } 
-    .banner-image{
-        text-align: center;
-    }    
-    .cf-left-col,
-    .cf-right-col{
-        width: auto;
-        margin-right: 0;
-        float: none;
-    }    
-    .section-more,
-    .section-more.left,
-    .section-more.right{
-        float: none !important;
-    }    
-    .big-icon{
-        width: 60px;
-        height: 60px;
-        line-height: 52px;
-        font-size: 24px;
-        margin-bottom: 0;
-    }
-    .blog-slide-info{
-        padding: 10px;
-    }
-    .blog-slide-title{
-        font-size: 12px;
-    }
-    .blog-slide-data{
-        display: none;
-    }    
-    .top-bar{
-        min-height: 0;
-    }
-    .top-links{
-        float: none !important;
-        padding: 5px 0;
-        text-align: center;
-    }
-    .top-links li,
-    .top-links li:last-child{
-        float: none;
-        border:none;
-        display: inline-block;
-    }
-    .top-links li a{
-        display: inline-block;
-        min-width: 0;
-        height: auto;
-        line-height: 1;
-        padding: 0 5px;
-    }
-    .top-links li a:hover,
-    .top-bar.dark .top-links li a:hover{
-        background: none;
-    }    
-    .side-panel{
-        padding-bottom: 20px;
-    }
-    .sp-logo-wrap{
-        max-width: 100px;
-        margin: 0 auto;
-    }
-    .sp-logo-wrap .logo{
-        padding: 20px 0 0 0;
-    }
-    .sp-menu-links a{
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .sp-social-links{
-        width: auto;
-        position: static;
-        padding-bottom: 10px;
-    }    
-    .countdown > li{
-        margin: 0 10px 20px;
-    }
-    .countdown-number{
-        width: 44px;
-        height: 44px;
-        font-size: 20px;
-        line-height: 44px;
-    }
-    .countdown-number > b{
-        bottom: -20px;
-        font-size: 9px;
-        color: rgba(255,255,255, .85);
-    } 
-    .text-mobile{
-        font-size: 110%;
-        line-height: 1.2;
-    }
-    
-}
+<!DOCTYPE html>
+<html lang="en">
 
 
-/* ==============================
-   Phone
-   ============================== */
-  
-@media only screen and (max-width: 575px) { 
-    .form input.newsletter-field {
-        display: block;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    .form .newsletter-button {
-        display: block;
-        width: 100%;
-    }
-}
-    
-@media only screen and (max-width: 480px) {
-    
-    .full-wrapper{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .container{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .float-images-1{;
-        top: 32vw;
-        left: 7vw;
-        width: 25vw;
-    }
-    .float-images-2{;
-        width: 25vw;
-    }
-    .float-images-3{
-        bottom: 22vh;
-        right: 17vw;
-        width: 18vw;
-    }
-    .float-images-4{;
-        bottom: 8vh;
-        width: 25vw;
-    }
-    .lead{
-        font-size: 120%;
-    }
-    .lead-alt{
-        font-size: 32px;
-    }
-    blockquote{
-        margin-bottom: 2em;
-    }
-    .blog-item-body blockquote p:before{
-        display: block;
-        margin-top: 1em;
-        position: static;
-        top: 0;
-        left: 0;
-        font-size: 2.58em;
-        line-height: 0;
-        opacity: 1;
-    }
-    .section-title{
-         font-size: 32px;
-    }
-    .banner-heading{
-        font-size: 32px;
-    }
-    .call-action-1-heading{
-        font-size: 32px;
-    }
-    .form input[type="text"].input-md,
-    .form input[type="email"].input-md,
-    .form input[type="number"].input-md,
-    .form input[type="url"].input-md,
-    .form input[type="search"].input-md,
-    .form input[type="tel"].input-md,
-    .form input[type="password"].input-md,
-    .form input[type="date"].input-md,
-    .form input[type="color"].input-md,
-    .form select.input-md,
-    .form input[type="text"].input-lg,
-    .form input[type="email"].input-lg,
-    .form input[type="number"].input-lg,
-    .form input[type="url"].input-lg,
-    .form input[type="search"].input-lg,
-    .form input[type="tel"].input-lg,
-    .form input[type="password"].input-lg,
-    .form input[type="date"].input-lg,
-    .form input[type="color"].input-lg,
-    .form select.input-lg{
-        height: 41px;
-        padding-bottom: 3px;
-        font-size: 16px;
-    }
-    .form textarea.input-md,
-    .form textarea.input-lg{
-        padding-top: 6px;
-        padding-bottom: 6px;
-        font-size: 16px;
-    }
-    .btn-mod.btn-medium,
-    .btn-mod.btn-large{
-        padding: 8px 15px 10px 15px;
-        font-size: 13px;
-    }
-    .hs-line-1{
-        font-size: 36px;
-    }
-    .hs-line-2{
-        font-size: 28px;
-    }
-    .hs-line-7{
-        font-size: 32px;
-        line-height: 1.1;
-    }
-    .hs-line-8{
-        font-size: 12px;
-    } 
-    .hs-line-9{
-        font-size: 42px;
-    } 
-    .hs-line-11{
-        font-size: 20px;
-    } 
-    .hs-line-12{
-        font-size: 32px;
-    }
-    .hs-line-13{
-        font-size: 30px;
-    }
-    .hs-line-15{
-        font-size: 24px;
-    }    
-    .nav-bar-compact{
-        top: 0;
-        left: 0;
-    }    
-    .page-section{
-        padding: 70px 0;
-    }
-    .small-section{
-        padding: 30px 0;
-    }    
-    .owl-pagination{
-        bottom: 5px !important;
-    }    
-    .owl-prev, .owl-next{
-        display: none;
-    }
-    .owl-page{
-        padding-left: 8px;
-        padding-right: 8px;
-    }    
-    .split-section-headings .section-title,
-    .wide-heading{
-        font-size: 24px;
-    }    
-    .section-heading,
-    .sub-heading{
-        font-size: 15px;
-    }
-    
-    .tpl-minimal-tabs > li{
-        padding: 0;
-    }
-    .tpl-minimal-tabs > li > a{
-        padding: 6px 10px 5px;
-    }
-    .tpl-alt-tabs{
-        font-size: 12px;
-        letter-spacing: 0.1em;
-    }
-    .tpl-alt-tabs > li{
-        width: 120px;
-        font-size: 16px;
-    }
-    .alt-tabs-icon{
-        font-size: 32px;
-    }
-    
-    .work-container{
-        padding: 30px 0;
-    }     
-    .count-number{
-        font-size: 48px;
-    }
-    .works-filter{
-        margin-bottom: 30px;
-    }
-    .works-filter a{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }    
-    .work-full-text{
-        margin-top: 30px;
-    }
-    .work-full-title{
-        font-size: 20px;
-    }    
-    .call-action-2-image-2{
-        margin: 60px auto;
-    }
-    .alt-service-item{
-        font-size: 16px;
-    }
-    .newsletter-label-text{
-        font-size: 24px;
-    }
-    .footer-social-links a{
-        width: 42px;
-        height: 42px;
-        line-height: 42px !important;
-    }
-    .footer-social-links a i,
-    .footer-social-links a span[class^=icon]{
-        line-height: 42px;
-    }
-    .blog-container{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }    
-    .blog-item-q p{
-        font-size: 20px;
-    }
-    .pagination a{
-        min-width: 32px;
-        margin-right: 3px;
-        padding: 6px 8px;
-        font-size: 16px;
-    }
-    .comment-avatar{
-        width: 30px;
-        margin-top: 7px;
-    }    
-    .comment-item{
-        font-size: 13px;
-    }    
-    .separ-space{
-        display: block;
-        height: 10px;
-    }    
-    .bot-menu-item{
-        font-size: 16px;
-    }    
-    .google-map > iframe{
-        height: 300px;
-    }
-    .tpl-tabs > li{
-        display: block;
-        float: none;
-        width: 100%;
-    }
-    .tpl-tabs > li.active a{
-        background: #f5f5f5 !important;
-    }    
-    .fm-menu-links a{
-        font-size: 14px;
-    }
-    .fm-search{
-        width: 200px;
-    }
-    
-    .fa-examples > li{
-        width: 50%;
-    }
-    .shopping-cart-table{
-        font-size: 16px;
-    }
-    .shopping-cart-table-title{
-        min-width: 150px; 
-    }
-    
-}
+<head>
 
 
-/* ==============================
-   Small Phone
-   ============================== */
-  
-@media only screen and (max-width: 319px) {
-    
-      .nav-social-links{
-          display: none;
-      }
-      
-}
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vlaca - Creative Portfolio Showcase Template">
+    <meta name="keywords"
+        content="vlack,personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Md samsuzzaman">
+    <!-- PAGE TITLE -->
+    <title>Rudra Consultancy</title>
+    <link rel="icon" href="assets/images/RUDRA CONSULTANCY.png" type="image/gif" sizes="32x32">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/effect.css">
+    <link rel="stylesheet" href="assets/css/button.css">
 
 
-/* ==============================
-   Max Height 767
-   ============================== */
-
-@media only screen and (max-height: 767px) {
-    
-    .split-image img{
-        width: 80%;
-    }
-    .sp-social-links{
-        padding-bottom: 10px;
-        position: static;
-        width: auto;
-    }
-    
-}
+    <!-- Cards CSS -->
+    <link rel="stylesheet" href="Cards/card_css.css">
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
 
-/* ==============================
-   Max Height 480
-   ============================== */
+    <!-- teams links -->
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-@media only screen and (max-height: 480px) {
-    
-    .float-images-1{;
-        top: 13.3vw;
-        left: 7vw;
-        width: 12vw;
-    }
-    .float-images-2{;
-        width: 12vw;
-    }
-    .float-images-3{
-        bottom: 29vh;
-        right: 9.8vw;
-        width: 9vw;
-    }
-    .float-images-4{;
-        bottom: 8vh;
-        width: 12vw;
-    }
-    
-}
+    <link rel="stylesheet" href="assets/css/social-menu.css">
+    <link rel="stylesheet" href="assets/css/social.scss">
 
 
-/* ==============================
-   Max Height 374
-   ============================== */
 
-@media only screen and (max-height: 374px) {
-    
-    .min-height-80vh,
-    .min-height-90vh,
-    .min-height-100vh{
-        min-height: 374px;
-    }
-    
-}
+</head>
+
+<body>
 
 
-/* ==============================
-   IOS Background Fix
-   ============================== */
-  
-.mobile .page-section, .mobile .home-section, .mobile .small-section{
-    background-attachment: scroll;
-}
+    <!-- START PRELOADER AREA-->
+    <div id="preloader-area">
+        <div class="logo center">
 
-/*
- * iPad Pro
- */
+            <!-- <p>Rudra Consultancy</p> -->
+            <img src="assets/images/rc.svg" height="150px" width="150px">
+            </a>
+        </div>
+        <!-- <p>Loading...</p> -->
+        <div class="loader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- END PRELOADER AREA -->
 
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    
-    html:not(.no-touch) .page-section, html:not(.no-touch) .home-section, html:not(.no-touch) .small-section{
-        background-attachment: scroll;
-    }
-    .float-images-1{
-        top: 27vw;
-        left: 10vw;
-        width: 20vw;
-    }
-    .float-images-2{
-        position: absolute;
-        bottom: 0;
-        left: 3.125vw;
-        width: 20vw;
-    }
-    .float-images-3{
-        bottom: 32vh;
-        right: 14vw;
-        width: 15vw;
-    }
-    .float-images-4{
-        position: absolute;
-        bottom: 18vh;
-        right: 3.125vw;
-        width: 20vw;
-    }
-    
-}
+    <!-- START CUROSR AREA-->
+    <!-- <div class="cursor cursor-small"></div>
+    <canvas class="cursor cursor-canvas" resize></canvas> -->
+    <!-- END CURSOR AREA -->
 
-/* ==============================
-   Internet Explorer Fix
-   ============================== */
-@media all and (-ms-high-contrast:none){
-     
-    .min-height-80vh{
-        height: 80vh;
-    } 
-    .min-height-90vh{
-        height: 90vh;
-    } 
-    .min-height-100vh{
-        height: 100vh;
-    }
-    .fixed-height-large{
-        height: 800px;
-    } 
-    .fixed-height-medium{
-        height: 700px;
-    } 
-    .fixed-height-small{
-        height: 600px;
-    }
-     
-}
+    <!-- OFF CANVAS MENU START -->
+    <div class="offcanves-menu-overlay"></div>
+    <div class="off-canvas-menu">
+        <span class="menu-close">
+            <i class="fa fa-close"></i>
+        </span>
+        <div class="menu-item-wrap">
+            <div class="menu-item-inner">
+                <ul>
+                    <li><a class="smoth-scroll" href="#home">Home</a></li>
+                    <li><a class="smoth-scroll" href="#services">Services</a></li>
+                    <li><a class="smoth-scroll" href="#about">About us</a></li>
+                    <li><a class="smoth-scroll" href="#mission">Mission</a></li>
+
+                    <!--  <li><a class="smoth-scroll" href="Teams\our-team\index.html">Teams</a></li> -->
+                    <li><a class="smoth-scroll" href="https://rudra-rahulgore7.vercel.app/">Blogs</a></li>
+                    <!--  <li><a class="smoth-scroll"
+                            href="Services\anemoimarine.com\rotor-sail-installation\index.html">Services</a></li> -->
+                    <li><a class="smoth-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-bottom-section">
+            <p>&copy;Copyright Rudra Consultancy. All-Right Reserved</p>
+            <div class="menu-social-links">
+                <ul>
+                    <li><a href="https://www.instagram.com/rudraconsultancy_mgt/?igshid=YmMyMTA2M2Y%3D"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/rudraconsultancy/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <!--  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- / END OFF CANVAS MENU START -->
+
+    <!-- START HOMEPAGE DESIGN AREA -->
+    <header id="home" class="welcome-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- START LOGO DESIGN AREA -->
+                        <div class="logo topleft">
+                            <a href="index.html">
+                                <!-- <p>Rudra Consultancy</p> -->
+                                <img src="assets/images/rc.svg" height="150px" width="150px">
+                            </a>
+                        </div>
+
+                        <!-- END LOGO DESIGN AREA -->
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <!-- START MENU DESIGN AREA -->
+                        <div class="mainmenu-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- END MENU DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-image-area" >
+            <div id="particles-js"></div>
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="header-text text-center">
+                                    <h2 class="scroll" data-rate="-3" data-direction="vertical">GROW</h2>
+                                    <h2 class="scroll" data-rate="3" data-direction="vertical">YOUR</h2>
+                                    <h2 class="scroll" data-rate="3" data-direction="vertical">BUSINESS</h2>
+                                    <div class="home-arrow-down">
+                                        <a href="#about" class="smoth-scroll btn"><i
+                                                class="fa fa-angle-double-down"></i></a>
+                                    </div>
+                                </div>
 
 
-/* ==============================
-   Print Styles Fix
-   ============================== */
-  
-@media print {
-    
-    *{
-        color: #000 !important;
-    }
-    
-    .main-nav{
-        display: none;
-    }
-    .buy-button{
-        display: none;
-    }
-    img{
-        display: block;
-    }    
-}
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- / END HOMEPAGE DESIGN AREA -->
+ 
+
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="about" class="about-me-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2 id="about-our-company" id="section-title-about">About our company</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <!-- START ABOUT TEXT AREA -->
+                    <div class="about-text">
+                        <h2 class="wow fadeInDown" data-wow-delay="0.2s" id="first-row-data">We take pride in being the
+                            most organised and passionate Management Consultancy firm in Nashik</h2>
+                        <p class="wow fadeInDown" data-wow-delay="0.4s" id="second-row-data"> We take pride in being the
+                            most organised and passionate Management Consultancy firm in Nashik, Our management
+                            consultants help organizations to solve issues, create value, maximize growth and improve
+                            business performance, bringing organizations to solve issues, create value, maximize growth
+                            and improve business performance.
+                            We use our business skills to provide objective advice and expertise, and help an
+                            organization to develop any specialist skills that it may be lacking</p>
+
+                    </div>
+                    <!-- / END ABOUT TEXT AREA -->
+                </div>
+                <div class="col-md-5">
+                    <!-- START ABOUT IMAGE AREA -->
+                    <!-- <div class="about-image">
+                        <img src="assets/images/me2.jpg" alt="">
+                    </div> -->
+                    <!-- / END ABOUT IMAGE AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+
+
+
+
+
+
+
+
+
+    <!-- START SERVICES DESIGN AREA -->
+    <section id="mission" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Mission</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="">
+                    <div class="single-service wow fadeInLeft" data-wow-delay="0.2s">
+                        <!-- <div class="service-icon">
+
+                            <i class="fa fa-users"></i>
+                        </div> -->
+                        <div class="service-description">
+                            <!--      <h2>01 </h2> -->
+                            <p>To continuously improve our customer's ability to efficiently manage their business,
+                                continually improve the effectiveness of the Quality Management System, including any
+                                applicable statutory and regulatory requirements.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICES DESIGN AREA -->
+
+    <!-- Start Vision -->
+    <div style="
+  background-image: url(assets/images/vision_img.jpg) ;" class="bg-1">
+
+        <div class="vision-text text-center1" style="text-align: center;">
+            <h2 class="wow fadeInDown" data-wow-delay="0.2s">Vision</h2>
+            <p class="wow fadeInDown" data-wow-delay="0.4s">
+                To Build exceptional consultancy firm, driven by total commitment to high quality services and clientele
+                satisfaction.</p>
+
+        </div>
+    </div>
+    <!-- End Vision -->
+
+
+
+
+
+
+
+
+
+ <!--    <div class="container_iframe" id="services">
+
+        <iframe src="Cards/cards.html" class="responsive-iframe" style="border: none; ">
+        </iframe>
+
+    </div>
+ -->
+ <!-- START WORK DESIGN AREA -->
+<section id="work" class="work section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-title">
+                    <h2>Featured works.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="work-items-wrap">
+            <div class="work-titles">Creative Design<span class="work_cat">Idea</span></div>
+            <div class="row work-items">
+
+                <div class="col-md-4 col-sm-4 single-item">
+                    <a href="pricing/companySub.html" class="work-box vbox-item" data-title="Let our company help you
+                     nail your next project" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/company.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/Bankfund.html" class="work-box  vbox-item" data-title="Bank Funds" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/MIS.html" class="work-box  vbox-item" data-title="MIS " data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item offset-md-2 offset-sm-2">
+                    <a href="pricing/human-pricing.html" class="work-box  vbox-item" data-title="Hiring the right people makes all the difference" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/human.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/webdev-pricing.html" class="work-box  vbox-item" data-title="Better people, better websites" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- / END START WORK DESIGN AREA -->
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- START TESTIMONIAL DESIGN AREA -->
+    <section id="testimonial" class="testimonial-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-list">
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Being Passionate</h2>
+                            <p id="markzucku">Passion is the key to excellence in anything. Hence, only when we are
+                                passionately drawn towards your business and share the same zeal as you do, we move
+                                forward to work with you. </p>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Adding Value</h2>
+
+                            <p id="markzucku">Value addition to your existing business can nudge your business ahead.
+                                So, we forge a relation with you when we know that our contribution can provide your
+                                business that much needed thrust</p>
+
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Being an Asset</h2>
+
+                            <p id="markzucku">When your partners are an asset to your brand your business can thrive
+                                better. Therefore, if we feel we can turn out to be a liability for you we do not
+                                believe in accepting you as a client.</p>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Buttons -->
+
+        </div>
+    </section>
+    <!-- / END TESTIMONIAL DESIGN AREA -->
+
+
+    <!-- START CONTACT DESIGN AREA -->
+    <section id="contact" class="contact-me-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title white-title">
+                        <h2>say hello!</h2>
+                        <div class="menu-bottom-section">
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="please-row" class="row">
+                <div class="col-md-4 ">
+                    <div class="single-contact-details">
+                        <i class="fa fa-map"></i>
+                        <h2>5th Unit, Shramic Nagar</h2>
+                        <h3>Behind Bagul Hospital, Prasad Circle, Gangapur Road,</h3>
+                        <p style="font-size: 20px;">Nashik - 422005 </p><br>
+                        <p style="font-size: 15px">Phone : (+91) 8468875052</p>
+                        <p style="font-size: 15px">Email : panagha11@gmail.com</p>
+                        <div class="menu-social-links">
+                            <ul>
+                                <li><a href="https://www.instagram.com/rudraconsultancy_mgt/?igshid=YmMyMTA2M2Y%3D"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/rudraconsultancy/"><i
+                                            class="fa fa-twitter"></i></a></li>
+
+                            </ul>
+                        </div>
+                        <div style="display: flex; align-items: center; flex-direction: row; font-size: 15px;gap: 15px;">
+                            <a style="color: white; border: none;" href="./terms/terms-and-conditions.html ">Terms and
+                                Conditions</a>
+                            <a style="color: white;  border: none;"
+                                href="./terms/refund-policy.html">Refund Policy</a>
+                            <a style="color: white;  border: none;"
+                                href="./terms/privacy-policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <!-- START CONTACT FORM DESIGN AREA -->
+                    <div class="contact-form">
+                        <form id="form" action="https://formspree.io/f/mqkjpygb" method="POST">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="name" class="form-control" id="first-name"
+                                        placeholder="Name" required="required">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <textarea rows="6" name="message" class="form-control" id="description"
+                                        placeholder="Your Message" required="required"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="actions wow fadeInDown" data-wow-delay=".4s">
+                                        <input type="submit" value="submit now" name="submit" id="submitButton"
+                                            class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    </form>
+                </div>
+
+                <!-- / END CONTACT FORM DESIGN AREA -->
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- / END CONTACT DESIGN AREA -->
+
+
+
+    <!-- START FOOTER DESIGN AREA -->
+    <!-- / END CONTACT DETAILS DESIGN AREA -->
+
+    <!-- START SCROOL UP DESIGN AREA -->
+
+
+
+    <div class="float">
+        <a href="https://api.whatsapp.com/send?phone=7028161602&text=" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+
+    <!-- <footer class="social-footer">
+        <div class="social-footer-left">
+          <a href="#"><img class="logo" src="assets/images/rc.svg"></a>
+        </div>
+        <div class="social-footer-icons">
+          <ul class="menu simple">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </footer> -->
+
+
+
+
+
+
+
+    <script src="assets/js/move.js"></script>
+    <!-- LATEST JQUERY -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- OWL CAROUSEL JS  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- STEALLER JS -->
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <!-- ANIMATION JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- PARTICLE JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/nice-scrool.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/mouse.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script type="text/javascript">
+        function buttonClick()
+        <script type="text/javascript" src="https://form.jotform.com/jsform/222584785819472"></script>
+
+    </script>
+
+
+
+</body>
+
+
+
+
+</html>

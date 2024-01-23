@@ -1,31 +1,5 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Md samsuzzaman
-Template Name: Vlaca - Creative Portfolio Showcase Template
-Version      : 1.0                                          
-* ----------------------------------------------------------------------------------------
-*/
 
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.PRELOADER & BOUNCE CCS STYLE
-* 03.HOMEPAGE CSS STYLE
-    -MENU CSS STYLE
-* 04.ABOUT CSS STYLE
-* 05.SERVICE CSS STYLE
-* 06.PORTFOLIO CSS STYLE
-* 07.TESTIMONIAL CSS STYLE
-* 08.CONTACT DESIGN AREA
-* 09.FOOTER CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
 
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
@@ -41,26 +15,7 @@ Version      : 1.0
 }
 
 
-.container_iframe {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
 
-
-.responsive-iframe {
-
-    background: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
 .topleft {
@@ -76,7 +31,7 @@ display: inline-block;
 .center {
 display: inline-block;
   position: absolute;
-    /*left: -30%;*/
+ 
  top: 34%;
  left: 46%;
   
@@ -1284,3 +1239,4 @@ fieldset {
     padding-bottom: 2.5%;
     padding-top: 10%;
 }
+*/
